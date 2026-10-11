@@ -21,7 +21,7 @@ CHUNK: Final = 20
 
 # How a Lockly lock names itself when it advertises. A prefix only: the name
 # is shortened differently by different Bluetooth radios.
-LOCAL_NAME_PREFIXES: Final = ("PGK", "PGD")
+LOCAL_NAME_PREFIXES: Final = ("PGK", "PGD", "LOCKLY")
 
 REPLY_TIMEOUT_S: Final = 8.0
 """The longest wait for any reply, a lock/unlock acknowledgement included."""
